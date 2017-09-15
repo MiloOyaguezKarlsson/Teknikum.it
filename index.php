@@ -6,7 +6,14 @@
   </head>
   <body>
     <?php
-      echo "hej";
+      include "components/menu.php";
+      include "components/header.php";
+      include "components/om.php";
+      include "components/utbildning.php";
+      include "components/bilder.php";
+      include "components/företag.php";
+      include "components/praktik.php";
+      include "components/footer.php";
     ?>
   </body>
 </html>
