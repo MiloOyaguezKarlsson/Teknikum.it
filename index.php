@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Teknikum.it</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <?php
