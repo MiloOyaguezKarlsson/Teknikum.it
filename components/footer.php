@@ -1,16 +1,21 @@
 <style>
     footer{
+        margin-top: 150px;
         background-color: #012E4D;
         color: white;
     }
     .footer-lista{
+        padding-left: 0;
         list-style: none;
     }
     .align-right{
         text-align: right;
     }
     footer h3{
-        border-bottom: #F4512E;
+        border-bottom: #F4512E solid;
+    }
+    footer ul{
+        text-align: left;
     }
 </style>
 <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -19,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
-                <img src="../bilder/teknikum_it_logga.jpg" alt="Teknikum.it logo" height="150px" width="200px" class="img-rounded"/>
+                <img src="../bilder/teknikum_it_logga.jpg" alt="Teknikum.it logo" height="150px" width="200px"/>
             </div>
             <div class="col-sm-3">
                 <h3>Adress</h3>
