@@ -9,7 +9,7 @@
   }
 
   .navbar-default {
-    background-color: #012E4D;
+    background-color: #012E4D !important;
   }
 
   .nav-justified {
@@ -71,7 +71,7 @@
   }
 </style>
 </head>
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top get-height">
   <div class="container">
     <div class="collapse navbar-collapse">
         <div class="navbar-header">
