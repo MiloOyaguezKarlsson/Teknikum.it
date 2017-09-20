@@ -76,7 +76,7 @@
     <div class="collapse navbar-collapse">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
-            <img alt="Brand" src="http://iec2020.se/wp-content/uploads/TeknikumIT.jpg">
+            <img alt="Brand" src="bilder/teknikum_it_logga.jpg">
           </a>
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
