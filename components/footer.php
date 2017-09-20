@@ -1,8 +1,8 @@
 <style>
     footer{
-        margin-top: 150px;
-        background-color: #012E4D;
+        background-color: #001D3D;
         color: white;
+        margin-top: 100px;
     }
     .footer-lista{
         padding-left: 0;
@@ -16,13 +16,11 @@
         width: 50%;
     }
 </style>
-<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <img src="Bilder/logga.jpg" alt="teknikum.it logga" height="150px" width="200px" class="center-block"/>
+                <img src="../bilder/teknikum_it_logga.jpg" alt="teknikum.it logga" height="150px"/>
             </div>
             <div class="col-md-3">
                 <h3>Adress</h3>
