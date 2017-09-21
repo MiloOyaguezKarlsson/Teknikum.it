@@ -1,8 +1,8 @@
 <style>
     footer{
-        margin-top: 150px;
-        background-color: #012E4D;
+        background-color: #001D3D;
         color: white;
+        margin-top: 100px;
     }
     .footer-lista{
         padding-left: 0;
@@ -13,20 +13,16 @@
     }
     footer h3{
         border-bottom: #F4512E solid;
-    }
-    footer ul{
-        text-align: left;
+        width: 50%;
     }
 </style>
-<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
-                <img src="../bilder/teknikum_it_logga.jpg" alt="Teknikum.it logo" height="150px" width="200px"/>
+            <div class="col-md-3">
+                <img src="../bilder/teknikum_it_logga.jpg" alt="teknikum.it logga" height="150px"/>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <h3>Adress</h3>
                 <ul class="footer-lista">
                     <li>IT-utb, B-korridoren</li>
@@ -42,7 +38,7 @@
                     <li><a href="http://www.iteducation.nu">http://www.iteducation.nu</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3">
+            <div class="col-md-3">
                 <h3>E-post</h3>
                 <ul class="footer-lista">
                     <li><a href="mailto:lars.mattson@teknikum.it">admin@teknikum.it</a></li>
