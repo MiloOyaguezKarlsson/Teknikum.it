@@ -1,11 +1,12 @@
 $(document).ready(function(){
-  setHeaderCss();
+  setHeaderCss($(".navbar").height());
 });
 
-function setHeaderCss() {
-  var navHeight = $(".get-height").height();
-  $(".jumbotron").css({
-    "margin-top": (navHeight + "px"),
-    "min-height": (($(window).height() - navHeight) + "px")
-  });
+function setHeaderCss(nav) {
+  console.log(nav);
+  var navHeight = nav;
+  $(".jumbotron").animate({
+    marginTop: (navHeight + "px"),
+    height: (($(window).height() - navHeight) + "px")
+  }, 400);
 }

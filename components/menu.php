@@ -8,6 +8,10 @@
     height: 100%;
   }
 
+  .navbar {
+    min-height: 0 !important;
+  }
+
   .navbar-default {
     background-color: #012E4D !important;
     border: none !important;
@@ -24,7 +28,6 @@
     top: 0;
     position: absolute;
     opacity: 0;
-    transition: opacity 0.4s;
   }
 
   .nav {
@@ -32,16 +35,12 @@
   }
 
   .nav li a{
-    transition: 0.5s ease;
+    transition: background-color 0.5s ease;
   }
 
   .nav>li>a {
     color: white;
     border-radius: 0 !important;
-    transition: 0.3s ease;
-    -o-transition: 0.3s ease;
-    -moz-transition: 0.3s ease;
-    -webkit-transition: 0.3s ease;
   }
 
   .nav li.active>a {
@@ -56,7 +55,6 @@
     float: none !important;
     text-align: center;
     position: relative;
-    transition: height 0.7s, opacity 0.7s ease;
     height: 150px;
 
   }
@@ -94,10 +92,10 @@
   }
 </style>
 </head>
-<nav class="navbar navbar-default navbar-fixed-top get-height">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="collapse navbar-collapse">
-        <div class="navbar-header">
+        <div class="navbar-header" id="navbar-header">
           <div class="navbar-brand">
             <img alt="Brand" src="bilder/teknikum_it_logga.jpg">
           </div>
