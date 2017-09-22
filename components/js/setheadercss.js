@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  setCss();
+  setHeaderCss();
 });
 
-function setCss() {
+function setHeaderCss() {
   var navHeight = $(".get-height").height();
   $(".jumbotron").css({
     "margin-top": (navHeight + "px"),
