@@ -8,8 +8,9 @@ $(document).ready(function(){
 
 function setHeaderCss(nav) {
   var navHeight = nav;
+  var navHeader = $(".nav").height();
   $(".jumbotron").animate({
-    marginTop: (navHeight + "px"),
+    marginTop: ((navHeight + navHeader) + "px"),
     height: (($(window).height() - navHeight) + "px")
   }, 400);
 }

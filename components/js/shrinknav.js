@@ -9,7 +9,7 @@ $(window).scroll(function() {
   if ($(document).scrollTop() > 10 && firstTime) {
     $( "#navbar-header").stop().animate({
       height: 0,
-    }, 400, setHeaderCss($(".nav").height()));
+    }, 400, setHeaderCss(0));
     firstTime = false;
     $(".hide-this").css("opacity", 0);
     $(".navbar-form").css({"top": 0, "margin-top": 0});

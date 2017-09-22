@@ -2,7 +2,7 @@
   .jumbotron {
     text-align: center;
     position: relative;
-    min-height: 330px;
+    min-height: 350px;
   }
 
   .jumbotron .container {
@@ -15,6 +15,7 @@
   .btn-primary {
     background-color: #012E4D !important;
     transition: 0.3s ease;
+    padding: 10px 30px !important;
   }
 
   .btn-primary:hover {
