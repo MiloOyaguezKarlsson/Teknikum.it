@@ -2,6 +2,7 @@
   .jumbotron {
     text-align: center;
     position: relative;
+    min-height: 330px;
   }
 
   .jumbotron .container {

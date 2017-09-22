@@ -22,12 +22,13 @@
     margin: auto;
   }
 
-  #brand-ikon {
-    z-index: 100;
-    left: 0;
-    top: 0;
-    position: absolute;
-    opacity: 0;
+  .nav-justified li {
+    width: 20% !important;
+    float: left !important;
+  }
+
+  .nav-pills>li+li {
+    margin-left: 0 !important;
   }
 
   .nav {
@@ -56,7 +57,14 @@
     text-align: center;
     position: relative;
     height: 150px;
+  }
 
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0 !important;
+  }
+
+  .hide-this {
+    transition: 0.3s ease;
   }
 
   .navbar-brand {
@@ -65,15 +73,15 @@
   }
 
   .navbar-brand>img {
-    width: 250px;
+    height: 100px;
     margin: auto;
-    position: absolute;
   }
 
   .navbar-form {
     position: absolute;
     right: 0;
     top: 20px;
+    transition: 0.3s ease;
   }
 
   .navbar-form .form-group{
@@ -89,6 +97,7 @@
     background-color: transparent !important;
     color: white;
     border: none !important;
+    margin: 4px 0 !important;
   }
 </style>
 </head>
@@ -96,19 +105,18 @@
   <div class="container">
     <div class="collapse navbar-collapse">
         <div class="navbar-header" id="navbar-header">
-          <div class="navbar-brand">
-            <img alt="Brand" src="bilder/teknikum_it_logga.jpg">
+          <div class="navbar-brand hide-this">
+            <img alt="Brand" src="bilder/teknikum.it-small.svg">
           </div>
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Sök">
+              <input type="text" class="form-control hide-this" placeholder="Sök">
             </div>
             <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
           </form>
         </div>
 
       <ul class="nav nav-pills nav-justified">
-        <li id="brand-ikon"role="presentation"><img src="bilder/teknikum_it_logga_ikon.jpg" alt=""></li>
         <li role="presentation" class="active"><a href="#" class="nav-element">HEM</a></li>
         <li role="presentation"><a href="#" class="nav-element">OM</a></li>
         <li role="presentation"><a href="#" class="nav-element">WOF</a></li>
