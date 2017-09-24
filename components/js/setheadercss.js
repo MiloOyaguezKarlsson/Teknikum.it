@@ -1,16 +1,17 @@
+var navHeight;
+
 $(document).ready(function(){
-  var navHeight = $(".navbar").height();
+  navHeight = $("nav").height();
   $(".jumbotron").animate({
     marginTop: (navHeight + "px"),
     height: (($(window).height() - navHeight) + "px")
   }, 0);
+  console.log(navHeight);
 });
 
 function setHeaderCss(nav) {
-  var navHeight = nav;
-  var navHeader = $(".nav").height();
   $(".jumbotron").animate({
-    marginTop: ((navHeight + navHeader) + "px"),
-    height: (($(window).height() - navHeight) + "px")
+    marginTop: (nav) + "px",
+    height: (($(window).height() - nav) + "px")
   }, 400);
 }

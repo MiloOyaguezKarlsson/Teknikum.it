@@ -10,15 +10,12 @@
 
   .navbar {
     min-height: 0 !important;
-  }
-
-  .navbar-default {
     background-color: #012E4D !important;
     border: none !important;
   }
 
   .nav-justified {
-    width: 80% !important;
+    width: 100% !important;
     margin: auto;
   }
 
@@ -99,16 +96,43 @@
     border: none !important;
     margin: 4px 0 !important;
   }
+
+  .navbar-toggle {
+    border: none !important;
+    transition: 0.3s ease;
+  }
+
+  .navbar-toggle:hover {
+    background-color: #001D3D !important;
+  }
+
+  .navbar-toggle:focus {
+    background-color: transparent !important;
+  }
+
+  .icon-bar {
+    background-color: white !important;
+  }
+
+  @media screen and (max-width: 767px) {
+    .navbar-collapse {
+      width: 100% !important;
+      margin: auto;
+    }
+    .nav-justified li {
+      width: 100% !important;
+      float: none !important;
+    }
+  }
 </style>
 </head>
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="collapse navbar-collapse">
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
         <div class="navbar-header" id="navbar-header">
           <div class="navbar-brand hide-this">
             <img alt="Brand" src="bilder/teknikum.it-small.svg">
           </div>
-          <form class="navbar-form navbar-right" role="search">
+          <form class="navbar-form navbar-right collapse navbar-collapse" role="search">
             <div class="form-group">
               <input type="text" class="form-control hide-this" placeholder="Sök">
             </div>
@@ -116,13 +140,21 @@
           </form>
         </div>
 
-      <ul class="nav nav-pills nav-justified">
-        <li role="presentation" class="active"><a href="#" class="nav-element">HEM</a></li>
-        <li role="presentation"><a href="#" class="nav-element">OM</a></li>
-        <li role="presentation"><a href="#" class="nav-element">WOF</a></li>
-        <li role="presentation"><a href="#" class="nav-element">FOTO</a></li>
-        <li role="presentation"><a href="#" class="nav-element">PRAKTIK</a></li>
-      </ul>
-    </div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapse-navbar">
+          <ul class="nav navbar-nav nav-pills nav-justified">
+            <li class="active"><a href="#" class="nav-element">HEM</a></li>
+            <li><a href="#" class="nav-element">OM</a></li>
+            <li><a href="#" class="nav-element">WOF</a></li>
+            <li><a href="#" class="nav-element">FOTO</a></li>
+            <li><a href="#" class="nav-element">PRAKTIK</a></li>
+          </ul>
+        </div>
   </div>
 </nav>
