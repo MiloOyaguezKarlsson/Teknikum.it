@@ -1,4 +1,8 @@
 <style media="screen">
+header {
+  background-color: #012E4D;
+}
+
   .jumbotron {
     text-align: center;
     position: relative;

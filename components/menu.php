@@ -127,7 +127,7 @@
 </style>
 </head>
 <nav class="navbar navbar-fixed-top">
-  <div class="container-fluid">
+  <div class="container">
         <div class="navbar-header" id="navbar-header">
           <div class="navbar-brand hide-this">
             <img alt="Brand" src="bilder/teknikum.it-small.svg">
@@ -150,7 +150,7 @@
         <div class="collapse navbar-collapse" id="collapse-navbar">
           <ul class="nav navbar-nav nav-pills nav-justified">
             <li class="active"><a href="#" class="nav-element">HEM</a></li>
-            <li><a href="#" class="nav-element">OM</a></li>
+            <li><a href="#om" class="nav-element">OM</a></li>
             <li><a href="#" class="nav-element">WOF</a></li>
             <li><a href="#" class="nav-element">FOTO</a></li>
             <li><a href="#" class="nav-element">PRAKTIK</a></li>

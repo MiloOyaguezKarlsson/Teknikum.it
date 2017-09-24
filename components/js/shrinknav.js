@@ -7,7 +7,6 @@ $(document).ready(function() {
   navHeight = $("nav").height();
   navHeadHeight = $(".navbar-header").height();
   navClassHeight = $(".nav").height();
-  console.log(navHeight);
 });
 
 $(window).scroll(function() {
