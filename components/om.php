@@ -1,18 +1,24 @@
 <style>
     #om h1{
-        border-bottom: #F4512E solid;
         width: auto;
         text-align: center;
     }
     #bildspel{
         text-align: center;
     }
-
+    .divider {
+        background-color: #F4512E;
+        height: 4px;
+        width: 70px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
 </style>
 
 <article id="om">
     <div class="container">
         <h1>Teknikum</h1>
+        <div class="divider"></div>
         <div class="row">
 
             <div class="col-md-6">
