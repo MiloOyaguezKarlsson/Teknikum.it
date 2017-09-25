@@ -154,7 +154,7 @@
             <li><a href="#om" class="nav-element">OM</a></li>
             <li><a href="#" class="nav-element">WOF</a></li>
             <li><a href="#" class="nav-element">FOTO</a></li>
-            <li><a href="#" class="nav-element">PRAKTIK</a></li>
+            <li><a href="#praktik" class="nav-element">PRAKTIK</a></li>
           </ul>
         </div>
   </div>

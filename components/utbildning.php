@@ -1,5 +1,5 @@
 <style>
-section.part {
+.part {
   padding: 40px 0;
 }
 
