@@ -25,7 +25,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   margin: 20px 0;
   padding: 10px 20px;
   width: 100%;
-  border: none;
+  border: 2px solid #012E4D;
   transition: 0.3s ease;
 }
 
