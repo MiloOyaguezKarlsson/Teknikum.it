@@ -94,7 +94,8 @@
     background-color: transparent !important;
     color: white;
     border: none !important;
-    margin: 4px 0 !important;
+    margin: 8px 0 !important;
+    margin-right: -12px !important;
   }
 
   .navbar-toggle {

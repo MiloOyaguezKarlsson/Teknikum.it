@@ -27,7 +27,7 @@ h1 {
 }
 
 .thumbnail img {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .område {
