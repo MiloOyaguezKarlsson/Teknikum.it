@@ -7,7 +7,7 @@ h1 {
   text-align: center;
 }
 
-#utbildning {
+.utbildning {
   background-color: #012E4D;
   color: white;
   text-align: center;
@@ -38,7 +38,7 @@ h1 {
 }
 </style>
 
-<section id="utbildning" class="part">
+<section class="utbildning part">
   <div class="container">
     <h1>Utbildningsinnehåll</h1>
     <div class="divider"></div>
@@ -117,3 +117,4 @@ h1 {
     </section>
   </div>
 </section>
+</article>

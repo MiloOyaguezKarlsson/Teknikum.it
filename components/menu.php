@@ -45,8 +45,16 @@
     background-color: #F4512E !important;
   }
 
+  .nav li.active>a:hover {
+    background-color: #F4512E !important;
+  }
+
   .nav li>a:hover {
     background-color: #001D3D !important;
+  }
+
+  .nav li>a:active {
+    background-color: #F4512E !important;
   }
 
   .navbar-header {
@@ -150,11 +158,11 @@
 
         <div class="collapse navbar-collapse" id="collapse-navbar">
           <ul class="nav navbar-nav nav-pills nav-justified">
-            <li class="active"><a href="#" class="nav-element">HEM</a></li>
-            <li><a href="#om" class="nav-element">OM</a></li>
-            <li><a href="#" class="nav-element">WOF</a></li>
-            <li><a href="#" class="nav-element">FOTO</a></li>
-            <li><a href="#praktik" class="nav-element">PRAKTIK</a></li>
+            <li class="active"><a onclick="$('#hem').animatescroll({padding:50});" href="#hem" class="nav-element">HEM</a></li>
+            <li><a onclick="$('#om').animatescroll({padding:50});" href="#om"class="nav-element">OM</a></li>
+            <li><a onclick="$('#om').animatescroll({padding:50});" href="#om" class="nav-element">WOF</a></li>
+            <li><a onclick="$('#om').animatescroll({padding:50});" href="#om" class="nav-element">FOTO</a></li>
+            <li><a onclick="$('#praktik').animatescroll({padding:50});" href="#praktik" class="nav-element">PRAKTIK</a></li>
           </ul>
         </div>
   </div>
