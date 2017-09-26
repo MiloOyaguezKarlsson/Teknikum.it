@@ -10,6 +10,7 @@
     <script src="bower_components/bootstrap/js/collapse.js" charset="utf-8"></script>
     <script src="components/js/animatescroll.min.js" charset="utf-8"></script>
     <script src="components/js/highlightnav.js" charset="utf-8"></script>
+    <script src="components/js/bildspel.js" type="text/javascript"></script>
   </head>
   <body>
     <?php
