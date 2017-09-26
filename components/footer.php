@@ -19,6 +19,9 @@
         margin: auto;
         margin-bottom: 40px;
     }
+    footer .divider{
+        margin-bottom: 0px;
+    }
     footer .col-md-3{
         text-align: center;
     }
