@@ -14,9 +14,9 @@ $(document).ready(function() {
         for (var i = 0; i < aArray.length; i++) {
             var theID = aArray[i];
             var secPosition = $(theID).offset().top;
-            secPosition = secPosition - 135;
+            secPosition = secPosition - 50 - Number($(navChildren[i]).attr("data-height"));
             var divHeight = $(theID).height();
-            divHeight = divHeight + 90;
+            divHeight = divHeight;
             if (windowPos >= secPosition && windowPos < (secPosition + divHeight)) {
                 $("a[href='" + theID + "']").parent().addClass("active");
             } else {
