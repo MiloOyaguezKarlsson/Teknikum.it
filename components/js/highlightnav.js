@@ -16,7 +16,7 @@ $(document).ready(function() {
             var secPosition = $(theID).offset().top;
             secPosition = secPosition - 50 - Number($(navChildren[i]).attr("data-height"));
             var divHeight = $(theID).height();
-            divHeight = divHeight;
+            divHeight = divHeight + Number($(navChildren[i]).attr("data-height"));
             if (windowPos >= secPosition && windowPos < (secPosition + divHeight)) {
                 $("a[href='" + theID + "']").parent().addClass("active");
             } else {
