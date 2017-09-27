@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <style>
     #wof h1{
         width: auto;
@@ -26,10 +25,6 @@
     }
 </style>
 <article id="wof" class="part">
-=======
-
-<section id="wof">
->>>>>>> ba5affd54f4f11fc22d1f474f6568f14633e3836
     <div class="container">
         <h1>Stort tack till följande företag</h1>
         <div class="divider"></div>
@@ -95,4 +90,4 @@
             </div>
         </div>
     </div>
-</section>
+</article>

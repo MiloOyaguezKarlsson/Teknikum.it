@@ -1,45 +1,4 @@
-<<<<<<< HEAD
-<style>
-    #om h1{
-        width: auto;
-        text-align: center;
-    }
-    .divider {
-        background-color: #F4512E;
-        height: 4px;
-        width: 70px;
-        margin: auto;
-        margin-bottom: 40px;
-    }
-
-    #bildspel{
-        overflow: hidden;
-        width: 356px;
-        height: 237px;
-        margin-top: 20px;
-        margin: auto;
-    }
-    #bildspel .slides {
-        display: block;
-        width: 2000px;
-        height: 237px;
-        margin: 0;
-        padding: 0;
-
-    }
-    #bildspel .slide {
-        float: left;
-        list-style-type: none;
-        width: 356px;
-        height: 237px;
-    }
-</style>
-
-<article id="om">
-  <section class="part">
-=======
 <section id="om">
->>>>>>> ba5affd54f4f11fc22d1f474f6568f14633e3836
     <div class="container">
         <h1>Teknikum</h1>
         <div class="divider"></div>
@@ -73,5 +32,3 @@
             </div>
         </div>
     </div>
-
-  </section>
