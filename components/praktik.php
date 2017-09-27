@@ -18,6 +18,7 @@
                     <input type="text" name="" value="" placeholder="Ämne*" required>
                     <textarea id="textarea" name="name" rows="8" cols="80" placeholder="Meddelande*" required></textarea>
                     <button type="submit" class="btn btn-default">Skicka</button>
+                    <div class="clear-both"></div>
                 </form>
             </div>
         </div>

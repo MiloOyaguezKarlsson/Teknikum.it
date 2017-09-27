@@ -131,11 +131,10 @@
     }
 /*---------------------------CSS till praktik.php------------------------------------*/
     #praktik {
-        background: #ffffff; /* Old browsers */
-        background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 50%, #012e4d 50%, #012e4d 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 50%,#012e4d 50%,#012e4d 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right, #ffffff 0%,#ffffff 50%,#012e4d 50%,#012e4d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#012e4d',GradientType=1 ); /* IE6-9 */
+        background-color: #ffffff;
+    }
+    .clear-both {
+      clear: both;
     }
     .container .part {
         padding: 40px;
@@ -173,9 +172,6 @@
         color: white;
     }
     @media (max-width: 768px) {
-        #praktik {
-            background: white;
-        }
         #wof .well{ /* till företag.php*/
             float: none !important;
         }
