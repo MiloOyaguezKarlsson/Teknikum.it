@@ -12,19 +12,19 @@
                 <div id="bildspel">
                     <ul class="slides">
                         <li class="slide">
-                            <img src="../bilder/bildspel/slide1.jpg" alt=""/>
+                            <img src="../bilder/bildspel/slide1.jpg" alt="bild1"/>
                         </li>
                         <li class="slide">
-                            <img src="../bilder/bildspel/slide2.jpg" alt=""/>
+                            <img src="../bilder/bildspel/slide2.jpg" alt="bild2"/>
                         </li>
                         <li class="slide">
-                            <img src="../bilder/bildspel/slide3.jpg" alt=""/>
+                            <img src="../bilder/bildspel/slide3.jpg" alt="bild3"/>
                         </li>
                         <li class="slide">
-                            <img src="../bilder/bildspel/slide4.jpg" alt=""/>
+                            <img src="../bilder/bildspel/slide4.jpg" alt="bild4"/>
                         </li>
                         <li class="slide">
-                            <img src="../bilder/bildspel/slide1.jpg" alt=""/>
+                            <img src="../bilder/bildspel/slide1.jpg" alt="bild1"/>
                         </li>
                     </ul>
                 </div>

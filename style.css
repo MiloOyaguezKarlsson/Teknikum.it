@@ -39,6 +39,9 @@
         color: white;
         margin-top: 100px;
     }
+    footer img{
+        margin-top: 20px;
+    }
     .footer-lista{
         padding-left: 0;
         list-style: none;

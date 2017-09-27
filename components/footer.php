@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <img src="../bilder/teknikum.it-small.svg" alt="teknikum.it logga" height="150px"/>
+                <img src="../bilder/teknikum.it-small.svg" alt="teknikum.it logga" height="150px">
             </div>
             <div class="col-md-3">
                 <h3>Adress</h3>
