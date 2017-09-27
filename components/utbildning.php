@@ -1,43 +1,3 @@
-<style>
-.part {
-  padding: 40px 0;
-}
-
-h1 {
-  text-align: center;
-}
-
-.utbildning {
-  background-color: #012E4D;
-  color: white;
-  text-align: center;
-}
-
-.divider {
-  background-color: #F4512E;
-  height: 4px;
-  width: 70px;
-  margin: auto;
-  margin-bottom: 40px;
-}
-
-.thumbnail {
-  background-color: transparent !important;
-  border: none !important;
-}
-
-.thumbnail img {
-  margin-bottom: 20px;
-}
-
-.område {
-  display: inline-block !important;
-  float: none !important;
-  vertical-align: top;
-  margin-bottom: 10px;
-}
-</style>
-
 <section class="utbildning part">
   <div class="container">
     <h1>Utbildningsinnehåll</h1>
@@ -117,4 +77,4 @@ h1 {
     </section>
   </div>
 </section>
-</article>
+</section>

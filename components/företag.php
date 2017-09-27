@@ -1,30 +1,5 @@
-<style>
-    #wof h1{
-        width: auto;
-        text-align: center;
-    }
-    .divider {
-        background-color: #F4512E;
-        height: 4px;
-        width: 70px;
-        margin: auto;
-        margin-bottom: 40px;
-    }
-    #wof .well{
-        text-align: center;
-        height: 200px;
-        background-color: #FFF;
-        border:none;
-    }
-    #wof .well div{
-        height: 50%;
-    }
-    #wof .well div img{
-        max-height: 100%;
-        max-width: 100%;
-    }
-</style>
-<article id="wof">
+
+<section id="wof">
     <div class="container">
         <h1>Stort tack till följande företag</h1>
         <div class="divider"></div>
@@ -66,7 +41,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="well col-md-3 col-sm-6 col-xs-8">
+            <div class="well col-md-3 col-sm-6 col-xs-8 col-xs-offset-2">
                 <div><img src="../bilder/netcomp-logga.jpg" alt=""/></div>
                 <p>Stödjer utbildningen med praktikplatser</p>
             </div>
@@ -90,4 +65,4 @@
             </div>
         </div>
     </div>
-</article>
+</section>

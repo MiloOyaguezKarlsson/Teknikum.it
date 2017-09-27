@@ -1,0 +1,287 @@
+.divider {  /* div för att understryka rubriker */
+    background-color: #F4512E;
+    height: 4px;
+    width: 70px;
+    margin: auto;
+    margin-bottom: 40px;
+}    
+/* --------------------------------CSS till om.php-------------------------------*/
+    #om h1{
+        width: auto;
+        text-align: center;
+    }
+    #om .container{
+        margin-bottom: 100px;
+    }
+    #bildspel{
+        overflow: hidden;
+        width: 356px;
+        height: 237px;
+        margin-top: 20px;
+        margin: auto;
+    }
+    #bildspel .slides {
+        display: block;
+        width: 2000px;
+        height: 237px;
+        margin: 0;
+        padding: 0;
+    }
+    #bildspel .slide {
+        float: left;
+        list-style-type: none;
+        width: 356px;
+        height: 237px;
+    }
+/*-----------------------------CSS till footer.php------------------------------------*/
+    footer{
+        background-color: #001D3D;
+        color: white;
+        margin-top: 100px;
+    }
+    .footer-lista{
+        padding-left: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .align-right{
+        text-align: right;
+    }
+    footer .divider{
+        margin-bottom: 0px;
+    }
+    footer .col-md-3{
+        text-align: center;
+    }
+    footer a{
+        color: #fff;
+    }
+/*----------------------------------CSS till utbildning.php------------------------------------*/
+    .part {
+        padding: 40px 0;
+    }
+    h1 {
+        text-align: center;
+    }
+    .utbildning {
+        background-color: #012E4D;
+        color: white;
+        text-align: center;
+    }
+    .thumbnail {
+        background-color: transparent !important;
+        border: none !important;
+    }
+    .thumbnail img {
+        margin-bottom: 20px;
+    }
+    .område {
+        display: inline-block !important;
+        float: none !important;
+        vertical-align: top;
+        margin-bottom: 10px;
+    }
+/*------------------------------------CSS till foretag.php-------------------------------------*/
+#wof h1{
+    width: auto;
+    text-align: center;
+}
+    #wof .well{
+        text-align: center;
+        height: 200px;
+        background-color: #FFFFFF;
+        border: none;
+        margin: auto;
+    }
+    #wof .well div{
+        height: 50%;
+    }
+    #wof .well div img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+/*.-----------------------------------CSS till header.php--------------------------------------*/
+    header {
+        background-color: #012E4D;
+    }
+    .jumbotron {
+        text-align: center;
+        position: relative;
+        min-height: 450px;
+    }
+    .jumbotron .container {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        height: auto;
+        width: 100%;
+        max-width: 1170px;
+    }
+    .btn-primary {
+        background-color: #012E4D !important;
+        transition: 0.3s ease;
+        padding: 10px 30px !important;
+    }
+
+    .btn-primary:hover {
+        background-color: #001D3D !important;
+    }
+/*---------------------------CSS till praktik.php------------------------------------*/
+    #praktik {
+        background: #ffffff; /* Old browsers */
+        background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 50%, #012e4d 50%, #012e4d 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 50%,#012e4d 50%,#012e4d 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #ffffff 0%,#ffffff 50%,#012e4d 50%,#012e4d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#012e4d',GradientType=1 ); /* IE6-9 */
+    }
+    .container .part {
+        padding: 40px;
+    }
+    .form-right {
+        background-color: #012E4D;
+    }
+    .form-right p {
+        color: white;
+        margin:20px 0 40px 0;
+    }
+    .form-right input, #textarea {
+        display: block;
+        margin: 20px 0;
+        padding: 10px 20px;
+        width: 100%;
+        border: 2px solid #012E4D;
+        transition: 0.3s ease;
+    }
+    input:focus, #textarea:focus {
+        outline: none;
+        background-color: #efefef;
+    }
+    .form-right button {
+        background-color: #F4512E;
+        padding: 10px 30px;
+        border: none;
+        color: white;
+        transition: 0.3s ease;
+        float: right;
+    }
+    .form-right button[type="submit"]:focus {
+        outline: none;
+        background-color: #F4512E;
+        color: white;
+    }
+    @media (max-width: 768px) {
+        #praktik {
+            background: white;
+        }
+        #wof .well{ /* till företag.php*/
+            float: none !important;
+        }
+    }
+/*-----------------------------CSS till menu.php-----------------------------*/
+    html,body {
+        height:100%;
+    }
+    .container {
+        height: 100%;
+    }
+    .navbar {
+        min-height: 0 !important;
+        background-color: #012E4D !important;
+        border: none !important;
+    }
+    .nav-justified {
+        width: 100% !important;
+        margin: auto;
+    }
+    .nav-justified li {
+        width: 20% !important;
+        float: left !important;
+    }
+    .nav-pills>li+li {
+        margin-left: 0 !important;
+    }
+    .nav {
+        position: relative;
+    }
+    .nav li a{
+        transition: background-color 0.5s ease;
+    }
+    .nav>li>a {
+        color: white;
+        border-radius: 0 !important;
+    }
+    .nav li.active>a {
+        background-color: #F4512E !important;
+    }
+    .nav li.active>a:hover {
+        background-color: #F4512E !important;
+    }
+    .nav li>a:hover {
+        background-color: #001D3D !important;
+    }
+    .nav li>a:active {
+        background-color: #F4512E !important;
+    }
+    .navbar-header {
+        float: none !important;
+        text-align: center;
+        position: relative;
+        height: 150px;
+    }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: 0 !important;
+    }
+    .hide-this {
+        transition: 0.3s ease;
+    }
+    .navbar-brand {
+        float: none !important;
+        height: 100% !important;
+    }
+    .navbar-brand>img {
+        height: 100px;
+        margin: auto;
+    }
+    .navbar-form {
+        position: absolute;
+        right: 0;
+        top: 20px;
+        transition: 0.3s ease;
+    }
+    .navbar-form .form-group{
+        width: 250px;
+    }
+    .form-control {
+        border-radius: 20px !important;
+        width: 100% !important;
+    }
+    .navbar-form .btn-default{
+        background-color: transparent !important;
+        color: white;
+        border: none !important;
+        margin: 8px 0 !important;
+        margin-right: -12px !important;
+    }
+    .navbar-toggle {
+        border: none !important;
+        transition: 0.3s ease;
+    }
+    .navbar-toggle:hover {
+        background-color: #001D3D !important;
+    }
+    .navbar-toggle:focus {
+        background-color: transparent !important;
+    }
+    .icon-bar {
+        background-color: white !important;
+    }
+    @media screen and (max-width: 767px) {
+        .navbar-collapse {
+            width: 100% !important;
+            margin: auto;
+        }
+        .nav-justified li {
+            width: 100% !important;
+            float: none !important;
+        }
+    }
