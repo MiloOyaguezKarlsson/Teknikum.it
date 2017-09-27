@@ -12,6 +12,7 @@
     <script src="components/js/animatescroll.min.js" charset="utf-8"></script>
     <script src="components/js/highlightnav.js" charset="utf-8"></script>
     <script src="components/js/bildspel.js" type="text/javascript"></script>
+    <script src="components/js/showimages.js" charset="utf-8"></script>
   </head>
   <body>
     <?php
@@ -19,8 +20,8 @@
       include "components/header.php";
       include "components/om.php";
       include "components/utbildning.php";
-      include "components/bilder.php";
       include "components/företag.php";
+      include "components/bilder.php";
       include "components/praktik.php";
       include "components/footer.php";
     ?>

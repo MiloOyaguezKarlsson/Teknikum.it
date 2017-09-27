@@ -1,5 +1,30 @@
-
-<section id="wof">
+<style>
+    #wof h1{
+        width: auto;
+        text-align: center;
+    }
+    .divider {
+        background-color: #F4512E;
+        height: 4px;
+        width: 70px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    #wof .well{
+        text-align: center;
+        height: 200px;
+        background-color: #FFF;
+        border:none;
+    }
+    #wof .well div{
+        height: 50%;
+    }
+    #wof .well div img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+</style>
+<article id="wof" class="part">
     <div class="container">
         <h1>Stort tack till följande företag</h1>
         <div class="divider"></div>
@@ -7,6 +32,8 @@
             <div class="well col-md-3 col-sm-6 col-xs-8">
                 <div><img src="../bilder/officeitpartner_logga.gif" alt="office-it-partner-logo" height="50%"/></div>
                 <p>Företaget har stöttat utbildningen både med utrustning, praktikplatser samt med föredrag.</p>      
+                <div><img src="../bilder/officeitpartner_logga.gif" alt="office it partner logga" height="50%"/></div>
+                <p>Företaget har stöttat utbildningen både med utrustning, praktikplatser samt med föredrag.</p>
             </div>
             <div class="well col-md-3 col-sm-6 col-xs-8">
                 <div><img src="../bilder/BTH_logga.jpg" alt="BTH-logo"/></div>
@@ -21,7 +48,7 @@
                 <p>Stödjer vår utbildning med praktikplatser</p>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="well col-md-3 col-sm-6 col-xs-8">
                 <div><img src="../bilder/HH_logga.jpg" alt="Halmstad-högskola-logo"/></div>
@@ -65,4 +92,4 @@
             </div>
         </div>
     </div>
-</section>
+</article>
