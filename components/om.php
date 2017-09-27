@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <style>
     #om h1{
         width: auto;
@@ -36,6 +37,9 @@
 
 <article id="om">
   <section class="part">
+=======
+<section id="om">
+>>>>>>> ba5affd54f4f11fc22d1f474f6568f14633e3836
     <div class="container">
         <h1>Teknikum</h1>
         <div class="divider"></div>

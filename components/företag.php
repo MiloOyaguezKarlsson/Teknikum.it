@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <style>
     #wof h1{
         width: auto;
@@ -25,6 +26,10 @@
     }
 </style>
 <article id="wof" class="part">
+=======
+
+<section id="wof">
+>>>>>>> ba5affd54f4f11fc22d1f474f6568f14633e3836
     <div class="container">
         <h1>Stort tack till följande företag</h1>
         <div class="divider"></div>
@@ -66,7 +71,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="well col-md-3 col-sm-6 col-xs-8">
+            <div class="well col-md-3 col-sm-6 col-xs-8 col-xs-offset-2">
                 <div><img src="../bilder/netcomp-logga.jpg" alt=""/></div>
                 <p>Stödjer utbildningen med praktikplatser</p>
             </div>
@@ -90,4 +95,4 @@
             </div>
         </div>
     </div>
-</article>
+</section>

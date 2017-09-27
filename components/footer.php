@@ -1,34 +1,3 @@
-<style>
-    footer{
-        background-color: #001D3D;
-        color: white;
-        margin-top: 100px;
-    }
-    .footer-lista{
-        padding-left: 0;
-        list-style: none;
-        text-align: center;
-    }
-    .align-right{
-        text-align: right;
-    }
-    .divider {
-        background-color: #F4512E;
-        height: 4px;
-        width: 70px;
-        margin: auto;
-        margin-bottom: 40px;
-    }
-    footer .divider{
-        margin-bottom: 0px;
-    }
-    footer .col-md-3{
-        text-align: center;
-    }
-    footer a{
-        color: #fff;
-    }
-</style>
 <footer>
     <div class="container">
         <div class="row">
