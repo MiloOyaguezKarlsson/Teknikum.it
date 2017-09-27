@@ -10,9 +10,7 @@
         margin: auto;
         margin-bottom: 40px;
     }
-    #om .container{
-        margin-bottom: 100px;
-    }
+
     #bildspel{
         overflow: hidden;
         width: 356px;
@@ -26,7 +24,7 @@
         height: 237px;
         margin: 0;
         padding: 0;
-        
+
     }
     #bildspel .slide {
         float: left;
@@ -37,6 +35,7 @@
 </style>
 
 <article id="om">
+  <section class="part">
     <div class="container">
         <h1>Teknikum</h1>
         <div class="divider"></div>
@@ -70,3 +69,5 @@
             </div>
         </div>
     </div>
+
+  </section>

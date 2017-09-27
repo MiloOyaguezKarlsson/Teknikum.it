@@ -24,14 +24,14 @@
         max-width: 100%;
     }
 </style>
-<article id="wof">
+<article id="wof" class="part">
     <div class="container">
         <h1>Stort tack till följande företag</h1>
         <div class="divider"></div>
         <div class="row">
             <div class="well col-md-3 col-sm-6 col-xs-8">
                 <div><img src="../bilder/officeitpartner_logga.gif" alt="office it partner logga" height="50%"/></div>
-                <p>Företaget har stöttat utbildningen både med utrustning, praktikplatser samt med föredrag.</p>      
+                <p>Företaget har stöttat utbildningen både med utrustning, praktikplatser samt med föredrag.</p>
             </div>
             <div class="well col-md-3 col-sm-6 col-xs-8">
                 <div><img src="../bilder/BTH_logga.jpg" alt="BTH logga"/></div>
@@ -46,7 +46,7 @@
                 <p>Stödjer vår utbildning med praktikplatser</p>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="well col-md-3 col-sm-6 col-xs-8">
                 <div><img src="../bilder/HH_logga.jpg" alt=""/></div>

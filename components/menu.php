@@ -161,7 +161,7 @@
             <li class="active"><a onclick="$('#hem').animatescroll({padding:50});" data-height="150" href="#hem" class="nav-element">HEM</a></li>
             <li><a onclick="$('#om').animatescroll({padding:49});" data-height="0" href="#om" class="nav-element">OM</a></li>
             <li><a onclick="$('#wof').animatescroll({padding:49});" data-height="0" href="#wof" class="nav-element">WOF</a></li>
-            <li><a onclick="$('#om').animatescroll({padding:49});" data-height="0" href="#om" class="nav-element">FOTO</a></li>
+            <li><a onclick="$('#bilder').animatescroll({padding:49});" data-height="0" href="#bilder" class="nav-element">FOTO</a></li>
             <li><a onclick="$('#praktik').animatescroll({padding:49});" data-height="0" href="#praktik" class="nav-element">PRAKTIK</a></li>
           </ul>
         </div>
