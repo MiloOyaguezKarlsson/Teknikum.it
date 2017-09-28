@@ -1,5 +1,5 @@
 <section id="om">
-    <div class="container about-text">
+    <div class="container about-text part">
         <h1>Teknikum</h1>
         <div class="divider"></div>
         <div class="row">
