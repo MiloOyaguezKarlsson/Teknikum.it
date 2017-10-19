@@ -337,7 +337,7 @@ footer a{
 }
 
 /*---Media queries---*/
-@media (max-width: 992px) {
+@media all and (max-width: 992px) {
     .bilder-header {
         margin-left: 20px;
     }
@@ -347,7 +347,10 @@ footer a{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
+	.part {
+		width: 100% !important;
+	}
     .navbar-collapse {
         width: 100% !important;
         margin: auto;
